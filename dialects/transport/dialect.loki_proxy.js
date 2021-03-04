@@ -10,6 +10,7 @@ const Busboy        = require('busboy');
 const { Readable }  = require('stream');
 const libsignal     = require('libsignal');
 const runMiddleware = require('run-middleware');
+const { TextDecoder } = require('text-decoding');
 const IV_LENGTH = 16;
 
 let configUtil
